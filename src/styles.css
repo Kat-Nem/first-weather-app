@@ -1,0 +1,123 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+nav {
+  padding-bottom: 30px;
+  line-height: 40px;
+  font-size: 25px;
+}
+h2 {
+  padding: 20px 0;
+}
+a {
+  text-decoration: none;
+  margin: 10px;
+}
+a:hover {
+  color: #4b2a53;
+}
+
+p {
+  margin: 0;
+}
+.block {
+  display: block;
+}
+.button {
+  width: 40%;
+  color: #c0b2b2;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
+  outline: none;
+  transition: all 300ms ease-in-out;
+  border: 2px solid #0c081c;
+  margin: 20px 0;
+}
+.button:focus {
+  outline: none;
+}
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.whole-app {
+  background: linear-gradient(#ac9999, #896378);
+  border: 3px solid #0c081c;
+  border-radius: 30px;
+  margin: 0px auto;
+  margin-top: 30px;
+  width: 80%;
+  max-width: 1200px;
+  display: block;
+  padding: 30px;
+  color: #271637;
+  box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.3);
+}
+.search-bar {
+  width: 100%;
+  border: 2px solid #0c081c;
+  border-radius: 20px;
+  background-color: rgba(225, 225, 225, 0.5);
+  outline: none;
+  padding-left: 30px;
+}
+.days {
+  font-weight: 900;
+}
+
+.current-city {
+  font-size: 50px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.current-temperature {
+  font-size: 50px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.current-weather-icon {
+  font-size: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.details {
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.date-time {
+  padding-left: 50px;
+}
+.forecast-5day {
+  text-align: center;
+}
+.h2 {
+  text-align: left;
+  font-size: 40px;
+  font-weight: 900;
+  padding-left: 50px;
+}
+.days {
+  font-size: 25px;
+}
+.icons {
+  font-size: 50px;
+  color: #6e4468;
+  text-shadow: 0 0 50px #c0b2b2;
+}
+.temperature {
+  font-size: 25px;
+}
+.active-temperature {
+  color: #4b2a53;
+}
+.inactive-temperature {
+  color: #896378;
+}
